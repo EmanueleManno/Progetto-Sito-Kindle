@@ -1,0 +1,30 @@
+/*Collegamento col file delle variabili*/
+@use '/src/assets/scss/vars' as *;
+
+/*Collegamento col file delle mixins*/
+@use '/src/assets/scss/mixins' as *;
+
+/*CSS Reset*/
+* {
+    @include css-reset;
+}
+
+/*Container*/
+.container {
+    @include container;
+}
+
+/*Body*/
+body {
+    font-family: sans-serif;
+}
+
+/*Stile delle liste*/
+li {
+    list-style-type: none;
+}
+
+/*Stile delle a*/
+a {
+    text-decoration: none;
+}

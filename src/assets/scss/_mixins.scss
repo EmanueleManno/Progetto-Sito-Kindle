@@ -1,0 +1,125 @@
+/*Center Flex*/
+@mixin center-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*CSS Reset*/
+@mixin css-reset {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Container*/
+@mixin container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*Immagine che non si ripete con cover*/
+@mixin image-norepeat-cover {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 0;
+}
+
+/*Flex Column*/
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Flex Column-Around*/
+@mixin flex-column-between {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Flex Column-Left*/
+@mixin flex-column-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/*Center Flex Column*/
+@mixin center-flex-column {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+/*Center Flex Column Start*/
+@mixin center-flex-column-start {
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+}
+
+/*Flex Row*/
+@mixin flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Flex Row-Between*/
+@mixin flex-row-between {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Flex Row-Around*/
+@mixin flex-row-around {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*Flex Row-Center*/
+@mixin flex-row-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/*Flex Row-Start*/
+@mixin flex-row-start {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/*Object-fit 90 percento*/
+@mixin objectninety {
+    object-fit: cover;
+    width: 90%;
+    height: 90%;
+}
+
+/*Object-fit 100 percento*/
+@mixin objecthoundred {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/*Other-Citation-Text-Style*/
+@mixin othercitationtextstyle {
+    padding-top: 15px;
+    text-align: center;
+    flex-basis: 75%;
+    line-height: 35px;
+}
